@@ -1,0 +1,36 @@
+1. runApp function 
+
+Inflate the given widget and attach it to the screen.
+
+The widget is given constraints during layout that force it to fill the entire screen. 
+If you wish to align your widget to one side of the screen (e.g., the top), consider using the Align widget.
+If you wish to center your widget, you can also use the Center widget.
+
+also:
+
+WidgetsBinding.attachRootWidget, which creates the root widget for the widget hierarchy.
+RenderObjectToWidgetAdapter.attachToRenderTree, which creates the root element for the element hierarchy.
+WidgetsBinding.handleBeginFrame, which pumps the widget pipeline to ensure the widget, element, and render trees are all built.
+
+
+2. MaterialApp widget:
+
+The MaterialApp configures the top-level Navigator to search for routes in the following order:
+
+For the / route, the home property, if non-null, is used.
+
+Otherwise, the routes table is used, if it has an entry for the route.
+
+Otherwise, onGenerateRoute is called, if provided. It should return a non-null value for any valid route not handled by home and routes.
+
+Finally if all else fails onUnknownRoute is called.
+
+3. Scaffold widget
+
+Implements the basic Material Design visual layout structure.
+
+This class provides APIs for showing drawers and bottom sheets.
+
+To display a persistent bottom sheet, obtain the ScaffoldState for the current BuildContext via Scaffold.of and use the ScaffoldState.showBottomSheet function.
+
+

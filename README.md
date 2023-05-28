@@ -1,14 +1,16 @@
-# Homework #12 - Flutter
+# hw_12
 
-## Details
+A new Flutter project.
 
-1- Create a flutter project that dispalys you full name in the middle of the screen
+## Getting Started
 
-2- Write in details about the following: 
-```
-    1. runApp function
-    2. MaterialApp widget
-    3. Scaffold widget
-```
-## Deadline
-29/5/2023 10:00 AM
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
